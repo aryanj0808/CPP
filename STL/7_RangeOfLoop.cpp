@@ -23,5 +23,10 @@ for (int &value : v){
 for (int value : v){
     cout<<value<<" ";
 }
+for(int value : v){
+    if(value==9){
+        cout<<"Hii";
+    }
+}
 cout<<endl;     
 }
