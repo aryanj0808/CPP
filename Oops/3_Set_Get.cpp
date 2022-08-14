@@ -27,7 +27,7 @@ public:
     {
         health = h;
     }
-    // Get funtion is used to retrive stored value in private variable/datatype
+    // Get funtion is used to retrive stored value in private variable
     int getHealth()
     {
         return health;
@@ -55,5 +55,6 @@ int main()
     aryan.display();
     Hero Prassana = Hero("Prassana", 80, 'B');
     Prassana.display();
+    aryan.setHealth(85);
     cout << aryan.getHealth() << endl;
 }
