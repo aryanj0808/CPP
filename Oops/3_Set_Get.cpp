@@ -44,7 +44,7 @@ public:
     {
         level = lev;
     }
-    int getlevel()
+    char getlevel()
     {
         return level;
     }
