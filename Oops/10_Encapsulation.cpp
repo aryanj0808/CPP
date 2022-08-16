@@ -3,6 +3,7 @@ using namespace std;
 
 class Student
 {
+    // Encapsulation done when data member are private
 private:
     string name;
     int age;
