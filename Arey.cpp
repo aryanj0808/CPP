@@ -18,7 +18,7 @@ int main()
     
     {
     	
-	 cout<<"Marks"<<i+1<<"="<<marks[i]<<endl;
+	 cout<<"Marks "<<i+1<<" = "<<marks[i]<<endl;
 	 
 	 }
 
