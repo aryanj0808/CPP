@@ -50,7 +50,7 @@ void Emp::Display(){
 int main(){
     Emp Defalut;
     Defalut.Display();
-    Emp aryan= *new Emp(193,"Aryan", 8, 8, 2001);
+    Emp aryan=*new Emp(193,"Aryan", 8, 8, 2001);
     aryan.Display();
     return 0;
 }
